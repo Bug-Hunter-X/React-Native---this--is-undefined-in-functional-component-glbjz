@@ -1,0 +1,1 @@
+This error occurs when you use a functional component in React Native and try to access `this.props` or `this.state` directly.  In functional components, `this` does not refer to the component instance. You must use hooks like `useState` and `useContext` to manage state and access props directly through the props argument.
